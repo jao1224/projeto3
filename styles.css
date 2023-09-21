@@ -1,0 +1,189 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Para centralizar verticalmente */
+  background-color: #333; /* Cor de fundo escura */
+  color: white; /* Cor do texto branca */
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; /* Defina a largura máxima desejada */
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+
+/* Estilos da seção Hero */
+.hero {
+  background-image: url('hero-bg.jpg'); /* Substitua 'hero-bg.jpg' pelo seu fundo de imagem real */
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+  width: 100%;
+}
+
+/* Estilos da div hero-content */
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos do título */
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Estilos do texto de descrição */
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Estilos do formulário */
+.hero form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero input[type="text"],
+.hero input[type="email"] {
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+
+/* Estilos do botão de CTA */
+.btn-cta {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-cta:hover {
+  background-color: #e5492a;
+}
+
+
+/* Estilos da seção de Recursos */
+.recursos {
+  background-color: #888; /* Fundo cinza médio */
+  padding: 50px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.recurso {
+  display: inline-block;
+  margin: 0 20px;
+  text-align: center;
+}
+
+/* Estilos da seção de Depoimentos */
+.depoimentos {
+  background-color: #333;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* Estilos da seção de Preços */
+.precos {
+  background-color: #888; /* Fundo cinza médio */
+  padding: 50px 0;
+  text-align: center;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos da seção de CTAs */
+.cta {
+  background-color: #333;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+/* Estilos do botão "Assinar" */
+.btn{
+  background-color: #ff5733; /* Cor de fundo laranja */
+  color: white; /* Cor do texto branca */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none; /* Removendo sublinhado de link */
+  display: inline-block;
+  transition: background-color 0.3s ease; /* Efeito de transição suave */
+  /* Estilo quando o mouse passa por cima do botão */
+  &:hover {
+  background-color: #e5492a; /* Cor de fundo laranja mais escura */
+  }
+}
+
+/* Estilos do botão "Botão Secundário" */
+.btn2 {
+  background-color: #ff5733; /* Cor de fundo cinza escuro */
+  color: white; /* Cor do texto branca */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none; /* Removendo sublinhado de link */
+  display: inline-block;
+  transition: background-color 0.3s ease; /* Efeito de transição suave */
+
+  /* Estilo quando o mouse passa por cima do botão */
+  &:hover {
+      background-color: #e5492a;; /* Cor de fundo cinza mais escuro */
+  }
+}
